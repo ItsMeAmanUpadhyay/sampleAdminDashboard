@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Portal</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+<style>
+    .body{
+        margin: 10px;
+    }
+    #headDesigne{
+        margin: 10px;
+        height: 200px;
+        background-image: linear-gradient(to right, blue , rgb(98, 0, 255));
+        position: relative;
+        border-radius: 5px;
+    }
+    .content{
+        padding: 19px;
+    }
+    .dateBox{
+        
+        height: 35px;
+        width: 280px;
+        background-color: white;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .tBlock{
+        height: 400px;
+        background-color: white;
+        border-radius: 5px;
+    }
+    .mBlock{
+        height: 120px;
+        border-radius: 5px;
+    }
+    .BlockContent{
+        padding: 30px;
+    }
+    h6{
+        color: rgb(41, 125, 250);
+        padding: 10px;
+    }
+    .blockHead{
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px; 
+    }
+    .blockFoot{
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px;
+        margin-top: 40px;     
+    }
+    .pg-bar{
+        margin: 15px;
+    }
+    .progress{
+        margin-bottom: 14px;
+    }
+    .li1{
+        color: grey;
+        font-size: smaller;
+    }
+</style>
+<body style="background-color: rgb(227, 227, 227);">
+    <div id="headDesigne">
+        <div class="content">
+            <div class="row">
+                <div class="col" style="color: white;" ><h2 style="display: inline-block"><span class="bi bi-activity" style="color: rgba(161, 156, 255, 0.899)"></span> Dashboard</h2><br>
+                    <span style="color: rgba(161, 156, 255, 0.899)">Example dashboard overview and content summary</span>
+                </div>
+                <div class="col">
+                <div class="dateBox float-right"><p style="font-size: small;margin-top: 6px;"><span class="bi bi-calendar text-success"></span> October 13,2020 - November 11,2020</p></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="margin-top: 40px;">
+                    <div class="tBlock">
+                        <div class="BlockContent">
+                            <h3 style="color: rgb(41, 125, 250);text-align: center;">Welcome to SB Admin Pro!</h3><br>
+                            <p style="text-align: center; color: rgb(148, 147, 147);">Browse our fully designed Ul toolkit! Browse
+                                Our prebuilt app pages, components, and
+                                utilites, and be sure to look at our full
+                                documentation!</p>
+                            <p style="text-align: center;"><img src="desk.png" alt="" width="200px" height="190px"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 40px;">
+                    <div class="tBlock">
+                        <div class="blockHead"><h6>Recent Activity</h6></div>
+                        <ul type="dot">
+                            <li style="color: green;"><p class="li1" style="color: grey;">New Order Placed! <b>Order #2912</b> has been successfully placed. </p></li>
+                            <li style="color: blue;"><p class="li1" style="color: grey;">Your <b>Weekly report</b> has been generated and is ready to view. </p></li>
+                            <li style="color: blueviolet;"><p class="li1" style="color: grey;">New user <b>Valerie Luna</b> has registered. </p></li>
+                            <li style="color: orange"><p class="li1" style="color: grey;">Server activity monitor alert. </p></li>
+                            <li style="color: green"><p class="li1" style="color: grey;">New Order Placed! <b>Order #2911</b> has been successfully placed. </p></li>
+                            <li style="color: blueviolet;"><p class="li1" style="color: grey;">Details for <b>Marketing and Planning Meeting</b> have been updated. </p></li>
+                            <li style="color: green;"><p class="li1" style="color: grey;">New Order Placed! <b>Order #2910</b> has been successfully placed. </p></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 40px;">
+                    <div class="tBlock">
+                        <div class="blockHead"><h6>Progress Tracker <span class="bi bi-three-dots-vertical float-right" style="color: rgb(140, 140, 140);"></span></h6></div>
+                        <div class="pg-bar">
+                            <p style="margin-bottom: 2px;">Server Migration <span class="float-right">20%</span></p>
+                            <div class="progress"><div class="progress-bar" style="width: 20%;background-color: red;"></div></div>
+                            <p style="margin-bottom: 2px;">Sales Tracking <span class="float-right">40%</span></p>
+                            <div class="progress"><div class="progress-bar" style="width: 40%;background-color: orange;"></div></div>
+                            <p style="margin-bottom: 2px;">Customer Database <span class="float-right">60%</span></p>
+                            <div class="progress"><div class="progress-bar" style="width: 60%;background-color: blue;"></div></div>
+                            <p style="margin-bottom: 2px;">Payout Details <span class="float-right">80%</span></p>
+                            <div class="progress"><div class="progress-bar" style="width: 80%;background-color: skyblue;"></div></div>
+                            <p style="margin-bottom: 2px;">Account Setup <span class="float-right">Complete!</span></p>
+                            <div class="progress"><div class="progress-bar" style="width: 100%;background-color: green;"></div></div>
+                        </div>
+                        <div class="blockFoot float-bottom"><p style="font-size: small ;margin-top: 6px;padding: 10px 20px 10px 20px; color: rgb(140, 140, 140);">View Task Center<span class="bi bi-arrow-right float-right"></span></p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="margin-top: 20px;">
+                    <div class="mBlock" style="background-color: blue;">
+                        <div class="row">
+                            <div class="col" style="padding: 15px 15px 2px 15px;margin: auto 10px auto 10px;">
+                                <p style="font-size: smaller; color: rgba(255, 255, 255, 0.612);">Earnings (Monthly) <span class="bi bi-calendar float-right" style="font-size: 30px;"></span><br><span style="font-size: 22px;color: white;">$40,000</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="margin: auto 10px auto 10px;">
+                                <p style=" font-size: small ; color: rgb(210, 210, 210);margin-bottom: 20px;">View report<span class="bi bi-arrow-right float-right"></span></p></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 20px;">
+                    <div class="mBlock" style="background-color: orange;">
+                        <div class="row">
+                            <div class="col" style="padding: 15px 15px 2px 15px;margin: auto 10px auto 10px;">
+                                <p style="font-size: smaller; color: rgba(255, 255, 255, 0.612);">Earnings (Annual) <span class="bi bi-currency-dollar float-right" style="font-size: 30px;"></span><br><span style="font-size: 22px;color: white;">$215,000</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="margin: auto 10px auto 10px;">
+                                <p style=" font-size: small ; color: rgb(210, 210, 210);margin-bottom: 20px;">View report<span class="bi bi-arrow-right float-right"></span></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 20px;">
+                    <div class="mBlock" style="background-color: green;">
+                        <div class="row">
+                            <div class="col" style="padding: 15px 15px 2px 15px;margin: auto 10px auto 10px;">
+                                <p style="font-size: smaller; color: rgba(255, 255, 255, 0.612);">Task Completion <span class="bi bi-check2-square float-right" style="font-size: 30px;"></span><br><span style="font-size: 22px;color: white;">24</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="margin: auto 10px auto 10px;">
+                                <p style=" font-size: small ; color: rgb(210, 210, 210);margin-bottom: 20px;">View tasks<span class="bi bi-arrow-right float-right"></span></p></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 20px;">
+                    <div class="mBlock" style="background-color: red;">
+                        <div class="row">
+                            <div class="col" style="padding: 15px 15px 2px 15px;margin: auto 10px auto 10px;">
+                                <p style="font-size: smaller; color: rgba(255, 255, 255, 0.612);">Pending Requests <span class="bi bi-chat float-right" style="font-size: 30px;"></span><br><span style="font-size: 22px;color: white;">17</span></p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col" style="margin: auto 10px auto 10px;">
+                                <p style=" font-size: small ; color: rgb(210, 210, 210);margin-bottom: 20px;">View requests<span class="bi bi-arrow-right float-right"></span></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col" style="margin-top: 40px;">
+                    <div class="tBlock">
+                        <div class="blockHead"><h6>Earning Breakdown <span class="bi bi-three-dots-vertical float-right" style="color: rgb(140, 140, 140);"></span></h6></div>
+                        <p style="text-align: center;"><img src="graph.png" alt="" width="750px" height="400px"></p>
+                    </div>
+                </div>
+                <div class="col" style="margin-top: 40px;">
+                    <div class="tBlock">
+                        <div class="blockHead"><h6>Monthly Revenue <span class="bi bi-three-dots-vertical float-right" style="color: rgb(140, 140, 140);"></span></h6></div>
+                        <p style="text-align: center;"><img src="barGrph.png" alt="" width="750px" height="400px"></p>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
